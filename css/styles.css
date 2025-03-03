@@ -77,14 +77,68 @@ h2 {
 }
 
 /* Contacto */
+/* Sección de contacto mejorada */
 #contacto {
-    background: #00509d;
-    color: white;
-    padding: 40px;
-    border-radius: 10px;
-    margin: 20px auto;
-    width: 80%;
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
 }
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contacto-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: left;
+}
+
+.contacto-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contacto-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botón de WhatsApp mejorado */
+.whatsapp-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background: #25d366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    background: #1ebe57;
+}
+
 
 /* WhatsApp flotante */
 .whatsapp-float {
