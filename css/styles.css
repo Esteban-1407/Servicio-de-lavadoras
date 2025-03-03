@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background: #00509d;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+}
+
+/* Títulos */
+h2 {
+    color: #00509d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Catálogo */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Mantenimiento */
+.mantenimiento-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.antes, .despues {
+    width: 45%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.antes img, .despues img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contacto */
+#contacto {
+    background: #00509d;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img {
+    width: 100%;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
